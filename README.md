@@ -2,7 +2,7 @@
 
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-## Heroku deployment link
+## Heroku app
 
 https://peaceful-brook-21616.herokuapp.com/
 
