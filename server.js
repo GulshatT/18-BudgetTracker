@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI ||"mongodb+srv://gulshat:Freddie86@@gul
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
-});
+}).catch(err => console.log(err));
 
 // routes
 app.use(require("./routes/api.js"));
